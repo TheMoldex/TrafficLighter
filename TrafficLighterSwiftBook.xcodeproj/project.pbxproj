@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C53D262F2ABCCF6D00B1D815 /* LightTraficSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightTraficSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53D262F2ABCCF6D00B1D815 /* TrafficLighterSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLighterSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53D26322ABCCF6D00B1D815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C53D26342ABCCF6D00B1D815 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C53D26362ABCCF6D00B1D815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C53D26302ABCCF6D00B1D815 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C53D262F2ABCCF6D00B1D815 /* LightTraficSwiftBook.app */,
+				C53D262F2ABCCF6D00B1D815 /* TrafficLighterSwiftBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C53D262E2ABCCF6D00B1D815 /* LightTraficSwiftBook */ = {
+		C53D262E2ABCCF6D00B1D815 /* TrafficLighterSwiftBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C53D26432ABCCF6E00B1D815 /* Build configuration list for PBXNativeTarget "LightTraficSwiftBook" */;
+			buildConfigurationList = C53D26432ABCCF6E00B1D815 /* Build configuration list for PBXNativeTarget "TrafficLighterSwiftBook" */;
 			buildPhases = (
 				C53D262B2ABCCF6D00B1D815 /* Sources */,
 				C53D262C2ABCCF6D00B1D815 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = LightTraficSwiftBook;
+			name = TrafficLighterSwiftBook;
 			productName = LightTraficSwiftBook;
-			productReference = C53D262F2ABCCF6D00B1D815 /* LightTraficSwiftBook.app */;
+			productReference = C53D262F2ABCCF6D00B1D815 /* TrafficLighterSwiftBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C53D262A2ABCCF6D00B1D815 /* Build configuration list for PBXProject "LightTraficSwiftBook" */;
+			buildConfigurationList = C53D262A2ABCCF6D00B1D815 /* Build configuration list for PBXProject "TrafficLighterSwiftBook" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C53D262E2ABCCF6D00B1D815 /* LightTraficSwiftBook */,
+				C53D262E2ABCCF6D00B1D815 /* TrafficLighterSwiftBook */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C53D262A2ABCCF6D00B1D815 /* Build configuration list for PBXProject "LightTraficSwiftBook" */ = {
+		C53D262A2ABCCF6D00B1D815 /* Build configuration list for PBXProject "TrafficLighterSwiftBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C53D26412ABCCF6E00B1D815 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C53D26432ABCCF6E00B1D815 /* Build configuration list for PBXNativeTarget "LightTraficSwiftBook" */ = {
+		C53D26432ABCCF6E00B1D815 /* Build configuration list for PBXNativeTarget "TrafficLighterSwiftBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C53D26442ABCCF6E00B1D815 /* Debug */,
