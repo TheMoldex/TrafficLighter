@@ -63,11 +63,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonPressed(_ sender: Any) {
-       
         changeColor()
         startButton.setTitle("Next", for: .normal)
-       
-        
     }
 
 }
