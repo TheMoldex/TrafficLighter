@@ -27,8 +27,7 @@ class ViewController: UIViewController {
     // MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+      
         redLight.layer.cornerRadius = redLight.frame.width / 2
         redLight.alpha = 0.3
         

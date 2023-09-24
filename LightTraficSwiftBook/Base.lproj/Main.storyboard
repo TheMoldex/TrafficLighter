@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="RXx-JK-w4y">
-                                <rect key="frame" x="100" y="67" width="228" height="340"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="RXx-JK-w4y">
+                                <rect key="frame" x="164" y="67" width="100" height="340"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZa-ht-5eL" userLabel="redLight">
-                                        <rect key="frame" x="64" y="0.0" width="100" height="100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.01666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="Isa-Ig-jkJ"/>
@@ -29,7 +29,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pc-9L-xa5" userLabel="yellowLight">
-                                        <rect key="frame" x="64" y="120" width="100" height="100"/>
+                                        <rect key="frame" x="0.0" y="120" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="q6A-IU-JnL"/>
@@ -37,7 +37,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJb-v3-pey" userLabel="greenLight">
-                                        <rect key="frame" x="64" y="240" width="100" height="100"/>
+                                        <rect key="frame" x="0.0" y="240" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="6vH-yA-4lx"/>
@@ -64,10 +64,9 @@
                         <constraints>
                             <constraint firstItem="RXx-JK-w4y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5ke-cM-ISe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ok7-wp-kJP" secondAttribute="trailing" constant="100" id="Dfq-Br-zep"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RXx-JK-w4y" secondAttribute="trailing" constant="100" id="LQC-6e-Hgh"/>
+                            <constraint firstItem="RXx-JK-w4y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Uio-jB-S1A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ok7-wp-kJP" secondAttribute="bottom" constant="20" id="eTT-Tg-Nel"/>
                             <constraint firstItem="ok7-wp-kJP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="qQ5-Fr-FT0"/>
-                            <constraint firstItem="RXx-JK-w4y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="vn6-6j-rfd"/>
                         </constraints>
                     </view>
                     <connections>
