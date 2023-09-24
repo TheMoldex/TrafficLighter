@@ -7,7 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    private enum ColorLighter {
+        case red
+        case yellow
+        case green
+    }
     // MARK: - outlets
     @IBOutlet weak var redLight: UIView!
     @IBOutlet weak var yellowLight: UIView!
@@ -18,11 +23,6 @@ class ViewController: UIViewController {
     private var currentState: ColorLighter = .green
     
     
-    private enum ColorLighter {
-        case red
-        case yellow
-        case green
-    }
     
     // MARK: - viewDidLoad
     override func viewDidLoad() {
@@ -33,14 +33,10 @@ class ViewController: UIViewController {
         
         yellowLight.layer.cornerRadius = yellowLight.frame.size.width / 2
         yellowLight.alpha = 0.3
-        
-        greenLight.frame.size.width = 100
-        greenLight.frame.size.height = 100
-        greenLight.layer.cornerRadius = 50
+    
+        greenLight.layer.cornerRadius =  greenLight.frame.size.width / 2
         greenLight.alpha = 0.3
-        // можно сделать и так
         
-        startButton.setTitle("Start", for: .normal)
         startButton.layer.cornerRadius = 20
     }
     // MARK: - IB action
